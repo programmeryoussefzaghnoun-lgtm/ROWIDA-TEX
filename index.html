@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROWIDA TEX | أزياء نسائية وأطفال</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ROWIDA TEX</h1>
+                <span>أزياء نسائية وأطفال</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#women">نسائي</a></li>
+                    <li><a href="#kids">أطفال</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/905342512071" target="_blank" class="btn-header"><i class="fab fa-whatsapp"></i> اطلب الآن</a>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي (Hero) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>أحدث صيحات الموضة لعائلتك</h2>
+            <p>تشكيلة واسعة من الملابس النسائية وملابس الأطفال بجودة عالية وأسعار منافسة.</p>
+            <a href="#women" class="btn">تصفح المجموعة</a>
+        </div>
+    </section>
+
+    <!-- قسم الملابس النسائية -->
+    <section id="women" class="collection">
+        <div class="container">
+            <h2 class="section-title">ملابس نسائية</h2>
+            <div class="grid">
+                
+                <!-- منتج 1 -->
+                <div class="product-card">
+                    <img src="imageswomen1.jpg" alt="طقم نسائي">
+                    <div class="product-info">
+                        <h3>طقم الماز</h3>
+                        <p>متوفر بجميع المقاسات</p>
+                        <button onclick="orderNow('طقم الماز')">اطلب عبر واتساب</button>
+                    </div>
+                </div>
+
+                <!-- منتج 2 -->
+                <div class="product-card">
+                    <img src="imageswomen2.jpg" alt="بيجامة نسائية">
+                    <div class="product-info">
+                        <h3>بيجامة سيتور</h3>
+                        <p>أحدث موديلات العصرية</p>
+                        <button onclick="orderNow('بيجامة سيتور')">اطلب عبر واتساب</button>
+                    </div>
+                </div>
+
+                <!-- منتج 3 -->
+                <div class="product-card">
+                    <img src="imageswomen3.jpg" alt="بيجامة فيسكون">
+                    <div class="product-info">
+                        <h3>بيجامة فيسكون</h3>
+                        <p>قماش ايكي بليك</p>
+                        <button onclick="orderNow('بيجامة فيسكون')">اطلب عبر واتساب</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم ملابس الأطفال -->
+    <section id="kids" class="collection bg-light">
+        <div class="container">
+            <h2 class="section-title">ملابس أطفال</h2>
+            <div class="grid">
+                
+                <!-- منتج 1 -->
+                <div class="product-card">
+                    <img src="imageskids1.jpg" alt="بيجامة أطفال">
+                    <div class="product-info">
+                        <h3>بيجامة محير</h3>
+                        <p>من عمر 12 سنة حتى 8 سنوات</p>
+                        <button onclick="orderNow('بيجامة أطفال')">اطلب عبر واتساب</button>
+                    </div>
+                </div>
+
+                <!-- منتج 2 -->
+                <div class="product-card">
+                    <img src="imageskids2.jpg" alt="ملابس بناتي">
+                    <div class="product-info">
+                        <h3>ملابس بناتي</h3>
+                        <p>أحدث الموديلات العصرية</p>
+                        <button onclick="orderNow('ملابس بناتي')">اطلب عبر واتساب</button>
+                    </div>
+                </div>
+
+                 <!-- منتج 3 -->
+                 <div class="product-card">
+                    <img src="imageskids3.jpg" alt="ملابس أطفال">
+                    <div class="product-info">
+                        <h3>طقم أطفال</h3>
+                        <p>مريح وعملي للأطفال</p>
+                        <button onclick="orderNow('طقم أطفال')">اطلب عبر واتساب</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>تواصل معنا للطلب</h2>
+            <p>نحن هنا لخدمتك، اطلب الآن واستلم في أسرع وقت.</p>
+            <a href="https://wa.me/905342512071" target="_blank" class="btn btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> تواصل عبر واتساب
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ROWIDA TEX. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
